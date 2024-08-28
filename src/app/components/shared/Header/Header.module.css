@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding: 0 24px;
+    border-bottom: 1px solid #C7C7C7;
+    background-color: #FFFFFFFF;
+}
+.ul{
+    list-style: none;
+}
+.li{
+    float: left;
+    text-align: center;
+    width: 200px;
+    
+}
+.Link2{
+    text-decoration: none;
+	background-color: #FFFFFFFF;
+	text-decoration: none;
+	color: #000000;
+	border: 1px solid #FFFFFFFF;
+	border-radius: 8px;
+}
+.Link2:hover{
+    border: 1px solid #62ca70;
+	color:  #62ca70;
+}

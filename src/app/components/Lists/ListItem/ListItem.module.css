@@ -1,0 +1,30 @@
+.Link{
+    width: 450px;
+	text-decoration: none;
+	color: black;
+}
+.img1{
+    width: 240px;
+	height: 240px;
+	border-radius: 20px;
+	object-fit: cover;
+	background-color: #C7C7C7;
+}
+.div2{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 12px;
+}
+.p1{
+	align-self: start;
+    font-weight: bold;
+}
+.p2{
+	align-self: start;
+	color: #C7C7C7;
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

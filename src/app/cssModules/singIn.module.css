@@ -1,0 +1,77 @@
+.description,
+.label {
+  position: relative;
+  line-height: 140%;
+  cursor: pointer;
+  align-self: stretch;
+}
+.description {
+  width: 240px;
+  color: var(--text-default-secondary);
+  display: none;
+}
+.input {
+  border: 1px solid var(--border-default-default);
+  outline: 0;
+  font-family: var(--single-line-body-base);
+  font-size: var(--single-line-body-base-size);
+  background-color: var(--background-default-default);
+  align-self: stretch;
+  border-radius: var(--radius-200);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--space-300) var(--space-400);
+  color: var(--text-default-tertiary);
+  min-width: 240px;
+}
+.inputField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-200);
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--background-brand-default);
+  padding: var(--space-300);
+  background-color: var(--background-brand-default);
+  flex: 1;
+  border-radius: var(--radius-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-200);
+  position: relative;
+  font-size: var(--single-line-body-base-size);
+  line-height: 100%;
+  font-family: var(--single-line-body-base);
+  color: var(--text-brand-on-brand);
+  text-align: left;
+}
+.formContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formContact {
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--space-600);
+  gap: var(--space-600);
+  min-width: 320px;
+  text-align: left;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}

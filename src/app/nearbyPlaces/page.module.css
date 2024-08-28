@@ -1,0 +1,19 @@
+.Nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.Link{
+    text-decoration: none;
+    align-self: center;
+    font: bold;
+	font-size: 16px;
+	color: #000;
+	padding: 8px;
+	border-radius: 8px;
+}
+.Link:hover{
+	border: 1px solid #62ca70;
+	color: #62ca70;
+}

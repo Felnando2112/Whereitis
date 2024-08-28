@@ -1,0 +1,16 @@
+.Link{
+    position: absolute;
+    left:45%;
+    top:6.5%;
+    text-decoration: none;
+    font: bold;
+    background-color: #FFFFFF;
+	font-size: 16px;
+	color: #757575;
+    padding: 8px;
+    z-index: 1000;
+}
+.Link:hover{
+    background-color: #e0e0e0;
+	color: #000000;
+}
